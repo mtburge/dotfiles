@@ -1,0 +1,26 @@
+[alias]
+  # short format of status
+  s = status -s
+
+  # pretty log for the last 20 commits
+  l = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+  # commit all
+  ca = !git add -A && git commit -av
+
+  # List contributors with number of commits
+  contrib = shortlog --summary --numbered
+
+[core]
+  excludesfile = ~/.config/git/gitignore_global
+  editor = nvim
+
+[init]
+  defaultBranch = main
+
+[user]
+  name = Matt Burgess
+  email = hey@mtb.dev
+
+[includeIf "gitdir:~/Code/Amazon/"]
+  path = ~/.config/git/work.config
