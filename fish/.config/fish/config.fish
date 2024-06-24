@@ -14,6 +14,8 @@ alias publicip "dig +short myip.opendns.com @resolver1.opendns.com"
 alias reload "source ~/.config/fish/config.fish"
 alias flushdns "sudo killall -HUP mDNSResponder"
 alias listening "sudo lsof -iTCP -sTCP:LISTEN -n -P"
+alias vim "nvim"
 
 # environment
 export GOPROXY=direct
+export EDITOR=nvim
