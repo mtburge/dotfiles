@@ -8,7 +8,18 @@ return {
 	},
 	config = function()
 		require("neo-tree").setup({
+			commands = {
+				find_files = function(state)
+					do_setcd(state)
+					require("telescope.builtin").find_files()
+				end,
+			},
+			window = {
+				position = "right",
+			},
 			filesystem = {
+				group_empty_dirs = true,
+				scan_mode = "deep",
 				filtered_items = {
 					visible = true,
 					show_hidden_count = true,
