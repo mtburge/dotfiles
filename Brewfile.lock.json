@@ -1368,6 +1368,12 @@
         "options": {
           "full_name": "monitorcontrol"
         }
+      },
+      "font-jetbrains-mono-nerd-font": {
+        "version": "3.2.1",
+        "options": {
+          "full_name": "font-jetbrains-mono-nerd-font"
+        }
       }
     }
   },
