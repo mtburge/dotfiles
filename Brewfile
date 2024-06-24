@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+brew "ripgrep"
 brew "fish"
 brew "eza"
 brew "bat"
