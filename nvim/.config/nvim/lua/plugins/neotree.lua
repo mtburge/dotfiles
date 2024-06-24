@@ -8,12 +8,6 @@ return {
 	},
 	config = function()
 		require("neo-tree").setup({
-			commands = {
-				find_files = function(state)
-					do_setcd(state)
-					require("telescope.builtin").find_files()
-				end,
-			},
 			window = {
 				position = "right",
 			},

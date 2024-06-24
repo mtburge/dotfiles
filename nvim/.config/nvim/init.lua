@@ -482,6 +482,9 @@ require("lazy").setup({
 					-- capabilities = {},
 					settings = {
 						Lua = {
+							diagnostics = {
+								globals = { "vim" },
+							},
 							workspace = {
 								checkThirdParty = "Disable",
 							},
