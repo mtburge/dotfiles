@@ -1362,6 +1362,12 @@
         "options": {
           "full_name": "font-jetbrains-mono"
         }
+      },
+      "monitorcontrol": {
+        "version": "4.2.0",
+        "options": {
+          "full_name": "monitorcontrol"
+        }
       }
     }
   },
