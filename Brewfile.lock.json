@@ -1360,7 +1360,7 @@
         }
       },
       "figma": {
-        "version": "124.1.12",
+        "version": "124.1.16",
         "options": {
           "full_name": "figma"
         }
@@ -1424,7 +1424,7 @@
   "system": {
     "macos": {
       "sonoma": {
-        "HOMEBREW_VERSION": "4.3.6",
+        "HOMEBREW_VERSION": "4.3.7",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.3.0.0.1.1708646388",
