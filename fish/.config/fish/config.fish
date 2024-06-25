@@ -2,7 +2,7 @@
 set fish_greeting ""
 
 # Setup brew
-eval "$(/opt/homebrew/bin/brew shellenv)"
+brew=(which brew) $brew shellenv &> /dev/null
 
 # abbreviations
 abbr --global -- dotfiles "cd ~/.dotfiles"
