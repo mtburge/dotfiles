@@ -225,6 +225,7 @@ require("lazy").setup({
 			-- Enable the following language servers
 			local servers = {
 				gopls = {},
+				terraformls = {},
 				tsserver = {},
 				lua_ls = {
 					settings = {
