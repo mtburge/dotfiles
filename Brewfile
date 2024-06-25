@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+brew "zellij"
 brew "ripgrep"
 brew "fish"
 brew "eza"
