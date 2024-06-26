@@ -2,9 +2,9 @@ PHONY: exec
 
 exec:
 	brew bundle
-	mkdir -p ~/Code/Amazon/GitHub
-	mkdir -p ~/Code/Personal/GitHub
-	stow */
+	mkdir -p ~/Code/Amazon
+	mkdir -p ~/Code/Personal
+	stow --no-folding */
 
 system:
 	# disable spotlight indexing
