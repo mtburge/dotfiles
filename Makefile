@@ -4,7 +4,7 @@ exec:
 	brew bundle
 	mkdir -p ~/Code/Amazon
 	mkdir -p ~/Code/Personal
-	stow --no-folding */
+	stow */
 
 system:
 	# disable spotlight indexing

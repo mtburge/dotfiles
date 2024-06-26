@@ -46,6 +46,6 @@ return {
 				},
 			},
 		})
-		vim.keymap.set("n", "<leader>e", "<Cmd>Neotree toggle<CR>", { desc = "[f]ile [e]xplorer" })
+		vim.keymap.set("n", "<leader>e", "<Cmd>Neotree toggle<CR>", { desc = "file [e]xplorer" })
 	end,
 }
