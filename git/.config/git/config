@@ -26,4 +26,4 @@
   email = hey@mtb.dev
 
 [includeIf "gitdir:~/Code/Amazon/"]
-  path = ~/.config/git/work.config
+  path = ~/.config/git/amazon.config
