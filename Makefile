@@ -1,12 +1,12 @@
-PHONY: exec
+PHONY: dotfiles
 
-exec:
-	brew bundle
+dotfiles:
 	mkdir -p ~/Code/Amazon
 	mkdir -p ~/Code/Personal
 	stow */
 
-system:
+macos:
+	brew bundle
+
 	# disable spotlight indexing
-	sudo mdutil -a -i off
-	sudo mdutil -E /
+	if mdutil -s / | grep -q "enabled"; then sudo mdutil -a -i off && sudo mdutil -E /; fi
