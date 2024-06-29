@@ -3,7 +3,7 @@ PHONY: dotfiles
 dotfiles:
 	mkdir -p ~/Code/Amazon
 	mkdir -p ~/Code/Personal
-	stow */
+	stow .
 
 macos:
 	brew bundle
