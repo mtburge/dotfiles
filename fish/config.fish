@@ -16,6 +16,9 @@ alias flushdns "sudo killall -HUP mDNSResponder"
 alias listening "sudo lsof -iTCP -sTCP:LISTEN -n -P"
 alias vim "nvim"
 
+# fzf history
+fzf --fish | source
+
 # environment
 export GOPROXY=direct
 export EDITOR=nvim
