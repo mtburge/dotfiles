@@ -19,6 +19,9 @@ alias vim "nvim"
 # fzf history
 fzf --fish | source
 
+# zoxide
+zoxide init --cmd cd fish | source
+
 # environment
 export GOPROXY=direct
 export EDITOR=nvim
