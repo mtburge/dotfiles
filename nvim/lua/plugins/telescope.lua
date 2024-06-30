@@ -34,10 +34,10 @@ return { -- Fuzzy Finder (files, lsp, etc)
 
 		-- See `:help telescope.builtin`
 		local builtin = require("telescope.builtin")
-		vim.keymap.set("n", "<leader>sf", builtin.find_files, { desc = "[S]earch [F]iles" })
+		vim.keymap.set("n", "<leader>sf", builtin.oldfiles, { desc = "Search Old Files" })
 		vim.keymap.set("n", "<leader>sg", builtin.live_grep, { desc = "[S]earch by [G]rep" })
 		vim.keymap.set("n", "<leader>sd", builtin.diagnostics, { desc = "[S]earch [D]iagnostics" })
-		vim.keymap.set("n", "<leader><leader>", builtin.oldfiles, { desc = "Find Recent Files" })
+		vim.keymap.set("n", "<leader><leader>", builtin.find_files, { desc = "Find Files" })
 		vim.keymap.set("n", "<leader>sb", builtin.buffers, { desc = "[S]earch existing [b]uffers" })
 
 		-- Slightly advanced example of overriding default behavior and theme
