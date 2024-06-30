@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
-brew "kitty"
+cask "kitty"
+brew "btop"
 brew "ripgrep"
 brew "fish"
 brew "eza"
