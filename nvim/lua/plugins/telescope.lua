@@ -21,6 +21,11 @@ return { -- Fuzzy Finder (files, lsp, etc)
 					require("telescope.themes").get_dropdown(),
 				},
 			},
+			defaults = {
+				preview = {
+					filesize_limit = 0.5555,
+				},
+			},
 		})
 
 		-- Enable Telescope extensions if they are installed
@@ -30,6 +35,7 @@ return { -- Fuzzy Finder (files, lsp, etc)
 		-- See `:help telescope.builtin`
 		local builtin = require("telescope.builtin")
 		vim.keymap.set("n", "<leader>sf", builtin.oldfiles, { desc = "Search Old Files" })
+		vim.keymap.set("n", "<leader>sr", builtin.resume, { desc = "Search Old Files" })
 		vim.keymap.set("n", "<leader>sg", builtin.live_grep, { desc = "[S]earch by [G]rep" })
 		vim.keymap.set("n", "<leader>sd", builtin.diagnostics, { desc = "[S]earch [D]iagnostics" })
 		vim.keymap.set("n", "<leader><leader>", builtin.find_files, { desc = "Find Files" })
