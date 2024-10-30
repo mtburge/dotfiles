@@ -10,4 +10,6 @@ if not vim.loop.fs_stat(lazypath) then
 end ---@diagnostic disable-next-line: undefined-field
 vim.opt.rtp:prepend(lazypath)
 
+vim.lsp.set_log_level("off")
+
 require("lazy").setup("plugins")
