@@ -22,6 +22,13 @@ return { -- Fuzzy Finder (files, lsp, etc)
 				},
 			},
 			defaults = {
+				file_ignore_patterns = {
+					".git/.*",
+					"node_modules/.*",
+					"package%-lock.json",
+					"*.jsonl",
+					"*.pkl",
+				},
 				preview = {
 					filesize_limit = 0.5555,
 				},
