@@ -48,7 +48,7 @@ return { -- LSP Configuration & Plugins
 		local servers = {
 			gopls = {},
 			terraformls = {},
-			tsserver = {},
+			ts_ls = {},
 			lua_ls = {
 				settings = {
 					Lua = {
