@@ -21,6 +21,11 @@ return { -- Fuzzy Finder (files, lsp, etc)
 					require("telescope.themes").get_dropdown(),
 				},
 			},
+			pickers = {
+				live_grep = {
+					debounce = 200,
+				},
+			},
 			defaults = {
 				file_ignore_patterns = {
 					".git/.*",
