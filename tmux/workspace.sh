@@ -6,9 +6,9 @@ tmux has-session -t $SESSION_NAME 2>/dev/null
 
 if [ $? != 0 ]; then
   tmux new-session -d -s $SESSION_NAME -n nvim
-  tmux new-window -t $SESSION_NAME:1 -n git
-  tmux new-window -t $SESSION_NAME:2 -n dev
-  tmux new-window -t $SESSION_NAME:3 -n console
+  tmux new-window -t $SESSION_NAME:2 -n git
+  tmux new-window -t $SESSION_NAME:3 -n dev
+  tmux new-window -t $SESSION_NAME:4 -n console
 fi
 
 tmux select-window -t $SESSION_NAME:nvim
