@@ -1,4 +1,3 @@
-tap "homebrew/bundle"
 brew "btop"
 brew "zoxide"
 brew "ripgrep"
