@@ -1,5 +1,4 @@
 tap "homebrew/bundle"
-cask "kitty"
 brew "btop"
 brew "zoxide"
 brew "ripgrep"
