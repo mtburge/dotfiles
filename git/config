@@ -25,5 +25,5 @@
   name = Matt Burgess
   email = hey@mtb.dev
 
-[includeIf "gitdir:~/Code/Amazon/"]
+[includeIf "gitdir:~/Code/Work/"]
   path = ~/.config/git/amazon.config

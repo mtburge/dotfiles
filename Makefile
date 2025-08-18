@@ -2,7 +2,7 @@ PHONY: dotfiles
 
 dotfiles:
 	mkdir -p ~/.config
-	mkdir -p ~/Code/Amazon
+	mkdir -p ~/Code/Work
 	mkdir -p ~/Code/Personal
 	stow .
 
