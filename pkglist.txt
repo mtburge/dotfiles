@@ -7,8 +7,10 @@ bolt
 btop
 efibootmgr
 fastfetch
+fwupd
 git
 gst-plugin-pipewire
+less
 libpulse
 linux
 linux-firmware
@@ -19,7 +21,9 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 plymouth
+power-profiles-daemon
 sof-firmware
+udisks2
 vim
 wireplumber
 yay
