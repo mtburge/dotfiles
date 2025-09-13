@@ -14,3 +14,8 @@ macos:
 
 	# faster dock unhide animation
 	defaults write com.apple.dock autohide-time-modifier -float 0.25; killall Dock
+
+arch:
+	sudo pacman -Syu
+
+	yay -S --needed - < pkglist.txt
