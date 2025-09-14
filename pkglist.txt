@@ -48,6 +48,7 @@ gtk3
 gtk4
 hypridle
 hyprland
+hyprlock
 hyprpaper
 inter-font
 jq
