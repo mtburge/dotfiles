@@ -25,6 +25,7 @@ ghostty
 git
 github-cli
 gitmux
+go
 gptfdisk
 greetd
 gst-plugin-pipewire
@@ -41,7 +42,11 @@ linux-firmware
 nautilus
 neovim
 networkmanager
+nodejs
 noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+npm
 openssh
 pavucontrol
 pipewire
@@ -53,6 +58,7 @@ polkit-gnome
 power-profiles-daemon
 python-gobject
 python-pip
+python-virtualenv
 qt5-wayland
 qt6-wayland
 ripgrep
@@ -67,6 +73,7 @@ ttf-dejavu
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 ttf-liberation
+ttf-nerd-fonts-symbols-common
 udisks2
 ufw
 ufw-docker
