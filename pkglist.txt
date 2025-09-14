@@ -1,3 +1,4 @@
+adwaita-qt5-git
 amd-ucode
 base
 base-devel
@@ -25,6 +26,7 @@ ghostty
 git
 github-cli
 gitmux
+gnome-themes-extra
 go
 gptfdisk
 greetd
@@ -84,6 +86,7 @@ wget
 wireplumber
 wofi
 xdg-desktop-portal
+xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 xdg-utils
