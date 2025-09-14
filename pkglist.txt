@@ -8,6 +8,8 @@ bolt
 brightnessctl
 btop
 docker
+docker-buildx
+docker-compose
 efibootmgr
 elephant
 elephant-desktopapplications
