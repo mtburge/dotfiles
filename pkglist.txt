@@ -1,16 +1,19 @@
 1password-beta
 1password-cli
 adwaita-qt5-git
+alacritty
 amd-ucode
 base
 base-devel
 bat
+blueberry
 bluez
 bluez-utils
 bolt
 brightnessctl
 btop
 chromium
+ddcutil
 docker
 docker-buildx
 docker-compose
@@ -44,6 +47,7 @@ gst-plugin-pipewire
 gtk3
 gtk4
 hyprland
+inter-font
 jq
 lazydocker
 lazygit
@@ -61,6 +65,7 @@ noto-fonts-cjk
 noto-fonts-emoji
 npm
 openssh
+pamixer
 pavucontrol
 pipewire
 pipewire-alsa
@@ -90,6 +95,7 @@ ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 ttf-liberation
 ttf-nerd-fonts-symbols-common
+ttf-roboto
 typora
 udisks2
 ufw
@@ -97,6 +103,7 @@ ufw-docker
 unzip
 vim
 walker
+waybar
 wget
 wireplumber
 wofi
