@@ -7,6 +7,7 @@ bluez-utils
 bolt
 brightnessctl
 btop
+docker
 efibootmgr
 elephant
 elephant-desktopapplications
@@ -40,6 +41,7 @@ neovim
 networkmanager
 noto-fonts
 openssh
+pavucontrol
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -62,6 +64,8 @@ ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 ttf-liberation
 udisks2
+ufw
+ufw-docker
 unzip
 vim
 walker
