@@ -84,6 +84,7 @@ ripgrep
 sof-firmware
 spotify
 stow
+swayosd
 terraform
 tldr
 tmux

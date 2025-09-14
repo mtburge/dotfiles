@@ -1,0 +1,20 @@
+window {
+  border-radius: 40px;
+  opacity: 0.96;
+  padding: 0 10px;
+  background-color: #000000;
+}
+
+label {
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 11pt;
+  color: #ffffff;
+}
+
+image {
+  color: #aaaaaa;
+}
+
+progress {
+  background-color: #dddddd;
+}
