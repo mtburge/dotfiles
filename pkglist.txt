@@ -66,6 +66,7 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+playerctl
 plymouth
 polkit-gnome
 power-profiles-daemon
@@ -76,6 +77,7 @@ qt5-wayland
 qt6-wayland
 ripgrep
 sof-firmware
+spotify
 stow
 terraform
 tldr
