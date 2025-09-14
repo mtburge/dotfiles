@@ -1,3 +1,5 @@
+1password-beta
+1password-cli
 adwaita-qt5-git
 amd-ucode
 base
@@ -32,6 +34,8 @@ ghostty
 git
 github-cli
 gitmux
+gnome-calculator
+gnome-calendar
 gnome-themes-extra
 go
 gptfdisk
