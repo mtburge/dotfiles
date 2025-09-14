@@ -46,6 +46,7 @@ greetd
 gst-plugin-pipewire
 gtk3
 gtk4
+hypridle
 hyprland
 inter-font
 jq
