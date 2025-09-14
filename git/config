@@ -21,6 +21,9 @@
 [init]
   defaultBranch = main
 
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+
 [user]
   name = Matt Burgess
   email = hey@mtb.dev
