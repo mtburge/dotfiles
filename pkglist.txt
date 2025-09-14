@@ -51,6 +51,7 @@ hypridle
 hyprland
 hyprlock
 hyprpaper
+hyprshot
 inter-font
 jq
 lazydocker
@@ -91,6 +92,7 @@ stow
 swaync
 swayosd
 terraform
+timeshift
 tldr
 tmux
 tree
