@@ -84,6 +84,7 @@ ripgrep
 sof-firmware
 spotify
 stow
+swaync
 swayosd
 terraform
 tldr
