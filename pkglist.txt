@@ -8,6 +8,10 @@ bolt
 brightnessctl
 btop
 efibootmgr
+elephant
+elephant-desktopapplications
+elephant-files
+elephant-websearch
 eza
 fastfetch
 firefox
@@ -31,8 +35,10 @@ less
 libpulse
 linux
 linux-firmware
+nautilus
 neovim
 networkmanager
+noto-fonts
 openssh
 pipewire
 pipewire-alsa
@@ -50,11 +56,15 @@ terraform
 tldr
 tmux
 tree
+ttf-apple-emoji
+ttf-dejavu
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
+ttf-liberation
 udisks2
 unzip
 vim
+walker
 wget
 wireplumber
 wofi
