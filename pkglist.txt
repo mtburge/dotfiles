@@ -51,6 +51,7 @@ hypridle
 hyprland
 hyprlock
 hyprpaper
+hyprpicker
 hyprshot
 inter-font
 jq
@@ -111,6 +112,7 @@ ufw
 ufw-docker
 unzip
 vim
+vlc
 walker
 waybar
 wget
