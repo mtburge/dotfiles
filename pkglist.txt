@@ -86,6 +86,7 @@ python-virtualenv
 qt5-wayland
 qt6-wayland
 ripgrep
+ruff
 sof-firmware
 spotify
 stow
