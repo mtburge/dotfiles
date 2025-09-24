@@ -28,10 +28,10 @@ return { -- Autoformat
 			formatters_by_ft = {
 				lua = { "stylua" },
 				python = { "isort", "ruff" },
-				--
-				-- You can use a sub-list to tell conform to run *until* a formatter
-				-- is found.
-				-- javascript = { { "prettierd", "prettier" } },
+				javascript = { "eslint_d", "prettier" },
+				javascriptreact = { "eslint_d", "prettier" },
+				typescript = { "eslint_d", "prettier" },
+				typescriptreact = { "eslint_d", "prettier" },
 			},
 		},
 	},
