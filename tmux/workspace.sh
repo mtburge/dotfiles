@@ -1,6 +1,7 @@
 #!/bin/bash
 
-SESSION_NAME="${1:-workspace}"
+CURRENT_DIR="$(basename $PWD)"
+SESSION_NAME="${1:-$CURRENT_DIR}"
 
 tmux has-session -t $SESSION_NAME 2>/dev/null
 
