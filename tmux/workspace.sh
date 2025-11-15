@@ -6,8 +6,8 @@ SESSION_NAME="${1:-$CURRENT_DIR}"
 tmux has-session -t $SESSION_NAME 2>/dev/null
 
 if [ $? != 0 ]; then
-  tmux new-session -d -s $SESSION_NAME -n nvim 'nvim'
-  tmux new-window -t $SESSION_NAME:2 -n git 'lazygit'
+  tmux new-session -d -s $SESSION_NAME -n nvim "fish -c 'nvim; exec fish'"
+  tmux new-window -t $SESSION_NAME:2 -n git "fish -c 'lazygit; exec fish'"
   tmux new-window -t $SESSION_NAME:3 -n dev
   tmux new-window -t $SESSION_NAME:4 -n console
 fi
