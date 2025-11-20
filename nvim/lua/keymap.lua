@@ -9,7 +9,6 @@ vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagn
 -- Buffer navigation
 vim.keymap.set("n", "<Tab>", "<cmd>:bnext<CR>", { desc = "<Tab> to next buffer" })
 vim.keymap.set("n", "<S-Tab>", "<cmd>:bprev<CR>", { desc = "<Shift+Tab> to previous buffer" })
-vim.keymap.set("n", "<C-N>", "<cmd>:enew<CR>", { desc = "<Ctrl+N> to open a new buffer" })
 
 vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 vim.keymap.set("n", "<leader><left>", "<C-w><C-h>", { desc = "Move focus to the left window" })
