@@ -35,6 +35,8 @@ return {
 						".git",
 						".DS_Store",
 						"thumbs.db",
+						"__init__.py",
+						"__pycache__",
 					},
 				},
 			},
