@@ -49,6 +49,7 @@ return { -- LSP Configuration & Plugins
 			gopls = {},
 			terraformls = {},
 			ts_ls = {},
+			pyright = {},
 			lua_ls = {
 				settings = {
 					Lua = {
