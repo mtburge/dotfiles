@@ -23,6 +23,7 @@ return {
 				"yaml",
 				"regex",
 				"dockerfile",
+				"gitignore",
 			},
 			auto_install = true,
 			highlight = {
