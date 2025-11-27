@@ -13,4 +13,10 @@ vim.opt.rtp:prepend(lazypath)
 
 vim.lsp.set_log_level("off")
 
-require("lazy").setup("plugins")
+require("lazy").setup({
+	spec = {
+		{ import = "plugins" },
+	},
+	checker = { enabled = true },
+	rocks = { enabled = false },
+})

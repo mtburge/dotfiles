@@ -5,6 +5,8 @@ return {
 			ensure_installed = {
 				"gopls",
 				"terraformls",
+				"tflint",
+				"docker_language_server",
 				"ts_ls",
 				"html",
 				"cssls",
@@ -38,6 +40,8 @@ return {
 				"stylua",
 				"ruff",
 				"eslint_d",
+				"tflint",
+				"tfsec",
 			},
 		},
 		dependencies = {

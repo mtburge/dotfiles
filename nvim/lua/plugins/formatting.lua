@@ -22,7 +22,7 @@ return {
 			},
 			formatters_by_ft = {
 				["_"] = { "trim_whitespace" },
-				go = { "goimports", "gofmt" },
+				go = { "gofmt" },
 				lua = { "stylua" },
 				python = { "ruff_fix", "ruff_format", "ruff_organize_imports" },
 				javascript = { "eslint_d", "prettier" },
