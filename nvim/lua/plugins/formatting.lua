@@ -21,7 +21,7 @@ return {
 			},
 			formatters_by_ft = {
 				lua = { "stylua" },
-				python = { "pyright" },
+				python = { "ruff_format", "ruff_fix" },
 				javascript = { "eslint_d", "prettier" },
 				javascriptreact = { "eslint_d", "prettier" },
 				typescript = { "eslint_d", "prettier" },
