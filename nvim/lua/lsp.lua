@@ -5,7 +5,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 		local opts = { buffer = ev.buf, silent = true }
 
 		opts.desc = "Goto definition"
-		keymap.set("n", "gd", vim.lsp.buf.declaration, opts)
+		keymap.set("n", "gd", "<cmd>Telescope lsp_definitions<CR>", opts)
 
 		opts.desc = "Goto references"
 		keymap.set("n", "gr", "<cmd>Telescope lsp_references<CR>", opts)
