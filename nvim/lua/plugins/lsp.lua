@@ -42,6 +42,7 @@ return {
 				"eslint_d",
 				"tflint",
 				"tfsec",
+				"golangci-lint",
 			},
 		},
 		dependencies = {

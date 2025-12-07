@@ -20,7 +20,7 @@ return {
 				},
 			},
 			filesystem = {
-				group_empty_dirs = true,
+				group_empty_dirs = false,
 				scan_mode = "deep",
 				follow_current_file = {
 					enabled = true,
