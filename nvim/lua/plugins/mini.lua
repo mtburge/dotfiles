@@ -21,6 +21,10 @@ return { -- Collection of various small independent plugins/modules
 				style = "sign",
 				signs = { add = "+", change = "~", delete = "-" },
 			},
+			mappings = {
+				apply = "",
+				reset = "",
+			},
 		})
 	end,
 }
