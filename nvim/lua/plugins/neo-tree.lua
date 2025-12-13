@@ -30,7 +30,7 @@ return {
 					visible = true,
 					show_hidden_count = true,
 					hide_dotfiles = false,
-					hide_gitignored = true,
+					hide_gitignored = false,
 					never_show = {
 						".git",
 						".DS_Store",
@@ -43,8 +43,8 @@ return {
 			default_component_configs = {
 				git_status = {
 					symbols = {
-						added = "++",
-						modified = "+",
+						added = "+",
+						modified = "~",
 						deleted = "-",
 						renamed = "R",
 						untracked = "?",
