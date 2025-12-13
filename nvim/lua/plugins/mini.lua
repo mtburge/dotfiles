@@ -15,5 +15,12 @@ return { -- Collection of various small independent plugins/modules
 		-- - sd'   - [S]urround [D]elete [']quotes
 		-- - sr)'  - [S]urround [R]eplace [)] [']
 		require("mini.surround").setup()
+
+		require("mini.diff").setup({
+			view = {
+				style = "sign",
+				signs = { add = "+", change = "~", delete = "-" },
+			},
+		})
 	end,
 }
