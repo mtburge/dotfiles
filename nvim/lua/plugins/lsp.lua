@@ -1,5 +1,18 @@
 return {
 	{
+		"neovim/nvim-lspconfig",
+		config = function()
+			local tf_root_markers = { ".tfroot", ".terraform", ".git" }
+
+			vim.lsp.config("terraformls", {
+				root_markers = tf_root_markers,
+			})
+			vim.lsp.config("tflint", {
+				root_markers = tf_root_markers,
+			})
+		end,
+	},
+	{
 		"williamboman/mason-lspconfig.nvim",
 		opts = {
 			ensure_installed = {
