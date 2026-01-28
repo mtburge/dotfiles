@@ -6,20 +6,10 @@ return {
 		"nvim-treesitter/nvim-treesitter",
 	},
 	opts = function()
-		require("go").setup(opts)
-		local format_sync_grp = vim.api.nvim_create_augroup("GoFormat", {})
-		vim.api.nvim_create_autocmd("BufWritePre", {
-			pattern = "*.go",
-			callback = function()
-				require("go.format").goimports()
-			end,
-			group = format_sync_grp,
-		})
-
 		vim.keymap.set("n", "<leader>tt", "<Cmd>GoTest -n<CR>", { desc = "[t]est nearest" })
 		vim.keymap.set("n", "<leader>tf", "<Cmd>GoTest -f<CR>", { desc = "[t]est whole file" })
 		vim.keymap.set("n", "<leader>tc", "<Cmd>GoCoverage -p<CR>", { desc = "[t]est with [c]overage" })
-		vim.keymap.set("n", "<leader>tca", "<Cmd>GoCoverage<CR>", { desc = "[t]est with [c]overage for [a]ll files" })
+		vim.keymap.set("n", "<leader>tr", "<Cmd>GoCoverage -R<CR>", { desc = "[t]est with [c]overage" })
 
 		return {
 			-- lsp_keymaps = false,
